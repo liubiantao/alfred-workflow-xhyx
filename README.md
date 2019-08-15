@@ -1,18 +1,17 @@
 # alfred-workflow-xhyx for Alfred 3 
 小鹤音形编码查询
 
-## [DOWNLOAD](https://github.com/liubiantao/alfred-workflow-xhyx/raw/master/xhyx.alfredworkflow)
+## [点击下载](https://github.com/liubiantao/alfred-workflow-xhyx/raw/master/xhyx.alfredworkflow)
 
 ![demo](demo.png)
 
-## Requirements
+## 需求
 1. [Alfred App v3](http://www.alfredapp.com/#download)
 1. [Alfred Powerpack](https://buy.alfredapp.com/)
 
-## Installing
-1. Click the download buttons below
-2. Double-click to import into Alfred
+## 安装
+1. 点击上面的下载按钮
+2. 双击导入 Alfred
 
-## Commands
+## 查询命令
 - `xh {query}`
-
