@@ -1,7 +1,7 @@
 # alfred-workflow-xhyx for Alfred 3 
 小鹤音形编码查询
 
-## [DOWNLOAD](https://github.com/liubiantao/alfred-workflow-what-rubbish/blob/master/xhyx.alfredworkflow)
+## [DOWNLOAD](https://github.com/liubiantao/alfred-workflow-xhyx/blob/master/xhyx.alfredworkflow)
 
 ![demo](demo.png)
 
