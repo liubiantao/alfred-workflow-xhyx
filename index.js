@@ -37,7 +37,7 @@ const getItems = () => {
   } else {
 
     if (fontCode) {
-      const code = fontCode[0].split(',');
+      const code = fontCode.split(',');
       return [{
         title: `编码：${code[0]}`,
         arg: input
