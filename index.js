@@ -1,8 +1,10 @@
 import alfy from "alfy";
 import xhyx from "./xhyx.json";
+import fontCodeMap from "./font-code-map.json";
 
-const input = String(alfy.input).charAt(0)
+const input = String(alfy.input)
 const data = xhyx[input];
+const fontCode = fontCodeMap[input]
 
 const getItems = () => {
   if (data === "未收录") {
@@ -33,6 +35,20 @@ const getItems = () => {
       }
     ];
   } else {
+
+    if (fontCode) {
+      const code = fontCode.split(',');
+      return [{
+        title: `编码：${code[0]}`,
+        arg: input
+      },
+      {
+        title: `位置：${code[1]}`,
+        arg: input
+      },
+      ]
+    }
+
     return [
       {
         title: "查询错误",
